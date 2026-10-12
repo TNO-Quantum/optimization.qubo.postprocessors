@@ -21,4 +21,4 @@ from tno.quantum.optimization.qubo.postprocessors._dwave._steepest_descent_postp
 
 __all__ = ["SteepestDescentPostprocessor"]
 
-__version__ = "1.0.0"
+__version__ = "1.0.5"

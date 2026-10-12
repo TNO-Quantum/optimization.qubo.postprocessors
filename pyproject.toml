@@ -13,11 +13,10 @@ license = { text = "Apache License, Version 2.0" }
 classifiers = [
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
     "Intended Audience :: Information Technology",
@@ -26,12 +25,12 @@ classifiers = [
 ]
 urls = { Homepage = "https://github.com/TNO-Quantum/", Documentation = "https://github.com/TNO-Quantum/", Source = "https://github.com/TNO-Quantum/optimization.qubo.postprocessors" }
 dynamic = ["version"]
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
     "numpy",
     "tno.quantum.utils~=5.0",
     "tno.quantum.optimization.qubo.components~=1.0",
-    "tno.quantum.optimization.qubo.solvers[dwave]~=1.0",
+    "tno.quantum.optimization.qubo.solvers[dwave]~=2.0",
 ]
 
 [project.optional-dependencies]

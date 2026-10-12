@@ -5,7 +5,6 @@ from __future__ import annotations
 from typing import TYPE_CHECKING, Any, SupportsInt
 
 from numpy.random import RandomState
-
 from tno.quantum.optimization.qubo.components import Postprocessor
 from tno.quantum.optimization.qubo.solvers import (
     DimodSampleSetResult,

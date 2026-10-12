@@ -5,8 +5,9 @@ from tno.quantum.optimization.qubo.components import (
     BasicResult,
     PostprocessorConfig,
 )
-from tno.quantum.optimization.qubo.postprocessors import SteepestDescentPostprocessor
 from tno.quantum.utils import BitVector
+
+from tno.quantum.optimization.qubo.postprocessors import SteepestDescentPostprocessor
 
 
 def test_supported_items() -> None:
